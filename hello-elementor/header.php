@@ -28,9 +28,7 @@ $skip_link_url = apply_filters( 'hello_elementor_skip_link_url', '#content' );
 <?php wp_body_open(); ?>
 
 <?php if ( $enable_skip_link ) { ?>
-
-<a class="skip-link screen-reader-text demo-test-class test-class-for-demo" href="<?php echo esc_url( $skip_link_url ); ?>"><?php echo esc_html__( 'Skip to content', 'hello-elementor' ); ?></a>
-
+<a class="skip-link screen-reader-text demo-test-class demo" href="<?php echo esc_url( $skip_link_url ); ?>"><?php echo esc_html__( 'Skip to content', 'hello-elementor' ); ?></a>
 <?php } ?>
 
 <?php
